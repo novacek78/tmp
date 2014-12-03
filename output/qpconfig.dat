@@ -1,0 +1,42 @@
+﻿{>name-values}
+
+config_date=20130918
+config_age_max=2
+
+default_material_thickness=1
+default_thread_size_M=4
+default_conus_size_M=4
+
+material_custom_available=True
+engraving_colorinfill_available=False
+
+{/name-values}
+
+
+
+{>combos}
+
+tool_maxdepth:1=4|1.5=5|2=8|3=10|4=10|5=10|6=14
+
+material_thickness:2 mm=2|2.5 mm=2.5|3 mm=3|4 mm=4|5 mm=5|6 mm=6|8 mm=8|10 mm=10
+surface_finish:Raw=surovy|Silver anodized=elprirodny|Black anodized=elcierny
+
+payment_method:Pro forma invoice=PREDF
+delivery_way:DPD parcel service=DPD
+order_priority:Standard=0
+
+thread_type:Metric=M
+thread_size_M:M1.6=1.6|M1.7=1.7|M2=2|M2.5=2.5|M3=3|M4=4|M5=5|M6=6|M8=8|M10=10
+thread_maxdepth_M:M1.6=4|M1.7=4|M2=5|M2.5=8|M3=8|M4=10|M5=12|M6=12|M8=12|M10=12
+
+conus_size_M:M1.6=1.6|M1.7=1.7|M2=2|M2.5=2.5|M3=3|M4=4|M5=5|M6=6|M8=8|M10=10
+conus_maxdepth_M:M1.6=1.2|M1.7=1.2|M2=1.2|M2.5=1.5|M3=1.7|M4=2.4|M5=2.9|M6=3.3|M8=4.4|M10=5.5
+conus_bigdia_M:M1.6=4.5|M1.7=4.5|M2=4.5|M2.5=5.3|M3=6.3|M4=8.6|M5=10.5|M6=12.3|M8=16.1|M10=20.3
+conus_smalldia_M:M1.6=2.3|M1.7=2.3|M2=2.3|M2.5=2.8|M3=3.3|M4=4.4|M5=5.4|M6=6.5|M8=8.6|M10=10.7
+
+engraving_tip_diameter:0.2 mm=0.2|0.4 mm=0.4
+engraving_colorfill_color:no fill=NOFILL
+
+edge_style:no modification=0|chamfer 45°=cham45
+
+{/combos}

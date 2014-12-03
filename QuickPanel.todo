@@ -1,0 +1,83 @@
+{DONE 1 -csys :
+Ak nie je pripojenie na net, bud znizit timeout poziadavky,
+alebo drzat zobrazeny Splash az kym sa to nezisti...}
+{DONE 1 -cphp :
+Po potvrdeni objednavky userom, vygenerovat novy ConfirmKey
+pre ekonomku aby potvrdila platbu}
+{TODO 1 -cphp : Opravit vykreslovanie do vykresu - kapsa je nad dierami}
+{DONE 1 -csys : Dorobit vykreslovanie uzatvorenych oblukovych drazok}
+{DONE 1 -csys : Pridat aj moznost na dobierku}
+{TODO 2 -cphp : V zahranici posielat vsetky maily aj zahranicnemu partnerovi}
+{DONE 2 -cphp : Postovne sa musi ratat podla krajiny, kam sa bude posielat}
+{DONE 1 -cphp : Prihodit na ceny 10%, ktore pojdu partnerovi}
+{DONE 1 -cphp :
+Po sparovani platby a vygenerovani programu a zadani do vyroby,
+poslat mail aj partnerovi, ze je tu nova objednavka.}
+
+{DONE 1 -cphp : Program a objednavku vygenerovat az po zaplateni predfaktury}
+{DONE 1 -csys : Po zaregistrovani usera poslat email partnerovi (priezvisko a mesto usera)}
+{TODO 4 -csys : Gravirovanie popisov do kapsy}
+{DONE 1 -cphp : Po odoslani objednavky poslat userovi predfakturu}
+{DONE 4 -csys : funkcia "Duplikovania" - nastavi offset a duplikuje otvory}
+{DONE 1 -csys : po vlozeni aktivacneho kodu nejaku hlasku, ze "OK" napr.}
+{DONE 1 -csys : po zaregistrovani oznamit, ze OK alebo CHYBA}
+{DONE 2 -cphp : Automaticke mazanie nepotvrdenych objednavok
+(resp. nezmazat,len nastavit status)}
+{DONE 1  -csys : opravit odkaz, kam usera hodi, ked sa zisti nova verzia
+a user si klikne na ANO}
+{DONE 1 -csys : verzia aplikacie musi zohladnovat aj cislo releasu}
+{TODO 4 -csys : pri podrzani mysi nad objektom ukazat "hint" - info o nom}
+{DONE 4 -csys : zadavanie matematickych vyrazov do poli}
+{DONE 4 -csys : UNDO - moznost krok spat}
+{DONE 3 -csys : zoom - priblizovanie panela}
+{TODO 4 -csys : nastroj na meranie vzdialenosti}
+{TODO 2 -csys : podpora CTRL+C a CTRL+V}
+{DONE 1 -csys : upozornit na nevyhodnost vyroby 1 ks}
+{TODO 2 -csys :ak sa nahrava subor s panelom a najde sa nieco, co nie je k dispozicii
+(hrubka panela, povrch.uprava, typ zavitu a pod.)
+vyhlasit chybu}
+{DONE 2 -csys : GuideLiney kreslit aj cez zahlbenia}
+{DONE 3 -csys : zoznam posledne otvorenych suborov}
+{DONE 2 -cphp : v DB musi byt firma identifikovana unikatnym ICOm}
+{DONE 2 -cphp : novu objednavku oznamit aj partnerovi}
+{TODO 3 -cphp : ZIP archiv na stahovanie dynamicky balit s konkretnym ID suborom partnera
+{DONE 1 -cphp : zaregistrovanie usera oznamit aj na partnerov email}
+{DONE 1 -cgfx : banner na web pre COPPER siroky 150px}
+{DONE 1 -cphp : dokoncit PHP cast featurov Groove}
+{DONE 1 -cphp : opravit format XPH suboru}
+{DONE 2 -csys : moznost vybrat si, z ktoreho otvoru v COMBe sa bude brat bod vlozenia}
+{TODO 3 -cphp : pridat na web fotky povrchov, gravirovania, ine detaily}
+{DONE 2 -csys : napisat nove triedenie featurov - aby sa nemrhalo miestom v poli}
+{DONE 4 -csys : osetrit max.pocet featurov na paneli
+(ked ma uz maximum, aby dostal ludsku hlasku, nie vynimku)}
+{DONE 1 -csys : opravit vkladanie COMBO otvorov, ked nul.bod je nestandardny}
+{DONE 1 -cphp : opravit vypocet cien - zahlbenia (kapsy)}
+{DONE 1 -cphp : skontrolovat vypocet cien - kuzel. a valc.zahlbenia}
+{TODO 3 -csys : pri ukladani COMBO otvoru sa opytat kam ulozit (file/lib/web)}
+{DONE 2 -csys : doplnit feature Drazka}
+{DONE 2 -csys : policko priania ku kazdej moznej veci}
+{TODO 2 -csys : NC program vzdy musi mat nulu v rohu c.1}
+{TODO 4 -csys : moznost jednoducho otocit panel na vysku (na stroji)}
+{DONE 3 -csys : susledne frezovanie pri vyrezavani panelov}
+{TODO 4 -csys : moznost presnych otvorov (dokoncovane 2-britom)}
+{DONE 4 -csys : otvory robit trochu vacsie (+0.05 ... +0.1)}
+{TODO 5 -csys : parametrizovatelne COMBO otvory}
+{TODO 2 -cphp : pri objednavke vygenerovat aj subor so samotnym panelom *.PANEL}
+{DONE 1  -cphp : upravit webstranku pre pouzitie s partnermi}
+{TODO 4 -csys : download COMBO otvorov z web-lib}
+{TODO 3 -csys : upload COMBO otvorov na web-lib}
+{DONE 3 -csys : pridat COMBO otvory}
+{DONE 2 -cphp : nepovolit 2x potvrdit objednavku}
+
+{DONE 4 -cphp : pri objednavke vygenerovat aj XML do Pohody}
+{DONE 4 -csys : ak nema prava na zaregistrovanie pripony *.panel, nehlasit chybu}
+{TODO 3 -csys : subor s identifikaciou partnera ako binarny}
+{DONE 4 -csys : podadresare pre panely/combo diery a ich zapamatanie}
+{TODO 4 -csys : opravit vykreslovanie gravirovaneho textu s diakritikou do vykresu}
+{TODO 5 -csys : ak je kapsa na hranici panela,
+nech ju softver automaticky zvacsi aby trochu presahovala panel}
+{TODO 4 -csys : opravit vykreslovanie textu (do vykresu) pri zadani celkovej sirky}
+{DONE 3 -csys : opravit triedenie otvorov (aby zahlbenie neprekrylo dieru/zavit)}
+{DONE 4 -csys : viacjazycnost}
+{DONE 3 -csys : registracia uzivatela cez EXE aplikaciu}
+{DONE 3 -csys : kontrola updatu}
